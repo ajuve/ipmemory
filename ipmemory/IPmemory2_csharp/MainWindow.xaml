@@ -1,0 +1,33 @@
+﻿<Window x:Class="ipmemory.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ipmemory"
+        mc:Ignorable="d"
+        Title="IPmemory 2020.06.16" Height="290.166" Width="597.167" WindowStartupLocation="CenterScreen" Icon="Icons/favicon.ico">
+    <Grid>
+        <Label x:Name="l7" Content="128" HorizontalAlignment="Left" Margin="10,10,0,0"  Style="{StaticResource label_ip}" VerticalAlignment="Top" RenderTransformOrigin="0.118,0.019" Width="65" Height="44" FontSize="18" PreviewMouseDown="Labels_click"/>
+        <Label x:Name="l6" Content="64" HorizontalAlignment="Left" Margin="80,10,0,0" Style="{StaticResource label_ip}" VerticalAlignment="Top" RenderTransformOrigin="0.118,0.019" Width="65" Height="44" FontSize="18" PreviewMouseDown="Labels_click"/>
+        <Label x:Name="l5" Content="32" HorizontalAlignment="Left" Margin="152,10,0,0" Style="{StaticResource label_ip}" VerticalAlignment="Top" RenderTransformOrigin="0.118,0.019" Width="65" Height="44" FontSize="18" PreviewMouseDown="Labels_click"/>
+        <Label x:Name="l4" Content="16" HorizontalAlignment="Left" Margin="222,10,0,0" Style="{StaticResource label_ip}" VerticalAlignment="Top" RenderTransformOrigin="0.118,0.019" Width="65" Height="44" FontSize="18" PreviewMouseDown="Labels_click"/>
+        <Label x:Name="l3" Content="8" HorizontalAlignment="Left" Margin="292,10,0,0" Style="{StaticResource label_ip}" VerticalAlignment="Top" RenderTransformOrigin="0.118,0.019" Width="65" Height="44" FontSize="18" PreviewMouseDown="Labels_click"/>
+        <Label x:Name="l2" Content="4" HorizontalAlignment="Left" Margin="362,10,0,0" Style="{StaticResource label_ip}" VerticalAlignment="Top" RenderTransformOrigin="0.118,0.019" Width="65" Height="44" FontSize="18" PreviewMouseDown="Labels_click"/>
+        <Label x:Name="l1" Content="2" HorizontalAlignment="Left" Margin="432,10,0,0" Style="{StaticResource label_ip}" VerticalAlignment="Top" RenderTransformOrigin="0.118,0.019" Width="65" Height="44" FontSize="18" PreviewMouseDown="Labels_click"/>
+        <Label x:Name="l0" Content="1" HorizontalAlignment="Left" Margin="502,10,0,0" Style="{StaticResource label_ip}" VerticalAlignment="Top" RenderTransformOrigin="0.118,0.019" Width="65" Height="44" FontSize="18" PreviewMouseDown="Labels_click"/>
+
+        <Button Name="b7"  Content="0" HorizontalAlignment="Left" Margin="12,59,0,0" Style="{StaticResource button_ip}" VerticalAlignment="Top" Width="65" Height="65" RenderTransformOrigin="-0.653,-0.554" FontSize="36" Cursor="Hand" Click="Bi_click"/>
+        <Button Name="b6"  Content="0" HorizontalAlignment="Left" Margin="82,59,0,0" Style="{StaticResource button_ip}" VerticalAlignment="Top" Width="65" Height="65" FontSize="36" Cursor="Hand" Click="Bi_click"/>
+        <Button Name="b5"  Content="0" HorizontalAlignment="Left" Margin="152,59,0,0" Style="{StaticResource button_ip}" VerticalAlignment="Top" Width="65" Height="65" FontSize="36" Cursor="Hand" Click="Bi_click"/>
+        <Button Name="b4"  Content="0" HorizontalAlignment="Left" Margin="222,59,0,0" Style="{StaticResource button_ip}" VerticalAlignment="Top" Width="65" Height="65" FontSize="36" Cursor="Hand" Click="Bi_click"/>
+        <Button Name="b3"  Content="0" HorizontalAlignment="Left" Margin="292,59,0,0" Style="{StaticResource button_ip}" VerticalAlignment="Top" Width="65" Height="65" FontSize="36" Cursor="Hand" Click="Bi_click"/>
+        <Button Name="b2"  Content="0" HorizontalAlignment="Left" Margin="362,59,0,0" Style="{StaticResource button_ip}" VerticalAlignment="Top" Width="65" Height="65" FontSize="36" Cursor="Hand" Click="Bi_click"/>
+        <Button Name="b1" Content="0" Margin="432,59,0,0" Style="{StaticResource button_ip}" VerticalAlignment="Top" Height="65" HorizontalAlignment="Left" Width="65" FontSize="36" Cursor="Hand" Click="Bi_click"/>
+        <Button Name="b0" Content="0" Margin="502,59,0,0" Style="{StaticResource button_ip}" VerticalAlignment="Top" Height="65" HorizontalAlignment="Left" Width="65" FontSize="36" Cursor="Hand" Click="Bi_click"/>
+
+        <Label Name="txtResult" Content="0" HorizontalAlignment="Left" Margin="12,129,0,0"  VerticalAlignment="Top" BorderBrush="Gainsboro" BorderThickness="1" HorizontalContentAlignment="Right" RenderTransformOrigin="0.118,0.019" Width="345" Height="66" FontSize="36"/>
+        <Button Name="btnReset" Content="RESET" Margin="362,129,0,0" VerticalAlignment="Top" Height="66" FontSize="36" HorizontalAlignment="Left" Width="205" Cursor="Hand" Click="BtnReset_Click"/>
+        <Label Content="2019-2020 | Artur Juvé Vidal" Height="26"  BorderBrush="Gainsboro" BorderThickness="1" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Window>
