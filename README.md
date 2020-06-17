@@ -6,25 +6,25 @@ A binary calculator for students who are learning binary conversion.
 
 ![enter image description here](https://github.com/ajuve/ipmemory/blob/master/images/Screenshot_2.png?raw=true)
 
-## Bit to Decimal
+## A Bit to Decimal
 
-|Binary 1 (bit) | Decimal|
+|Bit | Decimal|
 |--|--|
 | 0 | 0 |
 | 1 | 1 |
 
-## Binary 2 to Decimal
+## Two Bit to Decimal
 
-|Binary 2| Decimal|
+|Two Bit| Decimal|
 |--|--|
 | 00 | 0 |
 | 01 | 1 |
 | 10 | 2 |
 | 11 | 3 |
 
-## Nibble to Decimal
+## A Nibble to Decimal
 
-|Binary 4 (**nibble**)| Decimal  |
+|Nibble| Decimal  |
 |--|--|
 | 0000 | 0 |
 | 0001 | 1 |
